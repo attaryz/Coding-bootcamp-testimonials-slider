@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.card {
+  width: auto;
+  height: auto;
+  text-align: center;
+
+  display: block;
+}
+.img {
+  background-image: url(./images/pattern-bg.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+}
+img {
+  width: 300px;
+  height: 300px;
+  z-index: -1;
+  margin-top: 125px;
+  margin-right: -540px;
+}
+.info {
+  display: flex;
+  padding-top: 10px;
+  margin-left: 40px;
+}
+.name {
+  padding-right: 5px;
+  color: hsl(240, 38%, 20%);
+  font-weight: 700;
+  font-family: "Inter";
+}
+.job {
+  color: hsl(240, 18%, 77%);
+  font-family: "Inter";
+  font-weight: 500;
+}
+p {
+  font-size: 2rem;
+  color: hsl(240, 38%, 20%);
+  font-family: "Inter";
+  font-weight: 300;
+}
+.te {
+  width: 650px;
+  height: 200px;
+
+  margin-top: -250px;
+  margin-left: 110px;
+  border: 1px solid red;
+}
